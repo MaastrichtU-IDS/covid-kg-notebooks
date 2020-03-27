@@ -1,7 +1,26 @@
-Need to be installed externally: 
 
-```shell
-apt-get -y install python-dev graphviz libgraphviz-dev pkg-config
+## Run
+
+From a root Jupyterlab Docker image.
+
+* Automatically clone the repository and install dependencies in `/data/covid-kg-notebooks`
+
+```bash
+docker run --rm -it -p 8888:8888 -v /data/covid-kg-notebooks:/notebooks -e PASSWORD="<your_secret>" -e GIT_URL="https://github.com/vemonet/covid-kg-notebooks" umids/jupyterlab:latest
+```
+
+*  Use the current folder and files in the Docker container (also install dependencies)
+
+On Linux or MacOS
+
+```bash
+docker run --rm -it -p 8888:8888 -v $(pwd):/notebooks -e PASSWORD="<your_secret>" -e GIT_URL="https://github.com/vemonet/covid-kg-notebooks" umids/jupyterlab:latest
+```
+
+On Windows
+
+```bash
+docker run --rm -it -p 8888:8888 -v ${pwd}:/notebooks -e PASSWORD="<your_secret>" -e GIT_URL="https://github.com/vemonet/covid-kg-notebooks" umids/jupyterlab:latest
 ```
 
 ## Sources
