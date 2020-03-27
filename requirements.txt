@@ -1,0 +1,12 @@
+rdflib
+pyRDF2Vec
+numpy
+pandas
+tqdm
+matplotlib
+sklearn
+networkx
+pygraphviz
+SPARQLWrapper
+scipy
+pandas-datareader
