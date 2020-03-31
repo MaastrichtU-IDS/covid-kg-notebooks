@@ -1,0 +1,6 @@
+vim
+nano
+python-dev
+graphviz
+libgraphviz-dev
+pkg-config
