@@ -1,0 +1,45 @@
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2000/01/rdf-schema#label>	"ACS Chemical Biology"@it .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2002/07/owl#sameAs>	<http://fr.dbpedia.org/resource/ACS_Chemical_Biology> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/issn>	"1554-8937" .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://schema.org/CreativeWork> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2000/01/rdf-schema#label>	"ACS Chemical Biology"@es .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/abstract>	"ACS Chemical Biology (usualmente abreviada como ACS Chem Biol) es una revista cient\u00EDfica revisada por iguales, publicada desde 2006 por la American Chemical Society. El objetivo de esta revista es difundir investigaciones originales de relevancia en la frontera entre la qu\u00EDmica y la biolog\u00EDa expandiendo el campo en r\u00E1pida expansi\u00F3n de la biolog\u00EDa qu\u00EDmica. La revista est\u00E1 disponible en versiones impresa y electr\u00F3nica, y est\u00E1 actualmente indexada en las principales bases de datos qu\u00EDmicas, incluyendo Chemical Abstracts Service, Web of Knowledge de ISI, y MEDLINE de NLM."@es .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/property/cover>	"150"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<https://web.archive.org/web/20070929125516/http:/community.acs.org/journals/acbcct/cs/Events/tabid/56/Default.aspx> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q1092563> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://pubs.acs.org/journal/acbcct> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatDelayedOpenAccessJournals> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatBiochemistryJournals> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/publisher>	<http://dbpedia.org/resource/American_Chemical_Society> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q386724> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://purl.org/linguistics/gold/hypernym>	<http://dbpedia.org/resource/Journal> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Thing> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2000/01/rdf-schema#comment>	"ACS Chemical Biology (usualmente abreviada como ACS Chem Biol) es una revista cient\u00EDfica revisada por iguales, publicada desde 2006 por la American Chemical Society. El objetivo de esta revista es difundir investigaciones originales de relevancia en la frontera entre la qu\u00EDmica y la biolog\u00EDa expandiendo el campo en r\u00E1pida expansi\u00F3n de la biolog\u00EDa qu\u00EDmica. La revista est\u00E1 disponible en versiones impresa y electr\u00F3nica, y est\u00E1 actualmente indexada en las principales bases de datos qu\u00EDmicas, incluyendo Chemical Abstracts Service, Web of Knowledge de ISI, y MEDLINE de NLM."@es .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2000/01/rdf-schema#label>	"ACS Chemical Biology"@fr .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatAmericanChemicalSocietyAcademicJournals> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2002/07/owl#sameAs>	<http://rdf.freebase.com/ns/m.02wcw91> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://community.acs.org/journals/acbcct/cs/WIKI/tabid/54/Default.aspx> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Periodical106593296> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://acschemicalbiology.org> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Publications_established_in_2006> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/editor>	<http://dbpedia.org/resource/Laura_L._Kiessling> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2000/01/rdf-schema#comment>	"ACS Chemical Biology (abr\u00E9g\u00E9 en ACS Chem. Biol.) est une revue scientifique \u00E0 comit\u00E9 de lecture mensuelle qui publie des articles dans le domaine de la biochimie. D'apr\u00E8s le Journal Citation Reports, le facteur d'impact de ce journal \u00E9tait de 5,698 en 2010. L'actuelle directrice de publication est Laura L. Kiessling (universit\u00E9 du Wisconsin-Madison, \u00C9tats-Unis)."@fr .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://xmlns.com/foaf/0.1/name>	"ACS Chemical Biology"@en .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Monthly_journals> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/firstPublicationYear>	"2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageRevisionID>	"742000445"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2000/01/rdf-schema#comment>	"ACS Chemical Biology is a peer-reviewed scientific journal published since 2006 by the American Chemical Society. The journal covers research at the interface between chemistry and biology spanning all aspects of chemical biology. The journal is available in both printed and online versions and is indexed in major databases including Chemical Abstracts Service, the ISI's Web of Knowledge, and MEDLINE."@en .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/PhysicalEntity100001930> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/impactFactorAsOf>	"2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/abstract>	"ACS Chemical Biology is a peer-reviewed scientific journal published since 2006 by the American Chemical Society. The journal covers research at the interface between chemistry and biology spanning all aspects of chemical biology. The journal is available in both printed and online versions and is indexed in major databases including Chemical Abstracts Service, the ISI's Web of Knowledge, and MEDLINE."@en .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/property/link1Name>	"Online access"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://pubs.acs.org/journals/acbcct/weos/ACSviewer/0612himmel/figure1.htm> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/2002/07/owl#sameAs>	<http://it.dbpedia.org/resource/ACS_Chemical_Biology> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://pubs.acs.org/loi/acbcct> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/property/country>	"United States"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/academicDiscipline>	<http://dbpedia.org/resource/Molecular_biology> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatEnglish-languageJournals> .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://dbpedia.org/ontology/abbreviation>	"ACS Chem. Biol." .
+<http://dbpedia.org/resource/ACS_Chemical_Biology>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/AcademicJournal> .
