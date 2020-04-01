@@ -38,9 +38,30 @@ cd /notebooks/input/covid19-literature-knowledge-graph
 wget -O kg.nt.zip https://storage.googleapis.com/kaggle-data-sets/564132/1049255/compressed/kg.nt.zip?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1585986845&Signature=NtLuBIRmNrmBwc4RxpHtB0oZ0sXuPisf3nwMc3aonqIOqpA%2BDRTT%2BQTd9T4JE0fmlNVrNDk5Rb%2BZSrVF58GndDlW2FgUzTcs8llO8OXgq6TO6tc5iAs%2FIWZqq0a9RIgTYlF3gZgmNDO2GUkUHXh%2BAmxs%2F2fkUp3olN%2BB4F4B7WVlAEfNYupNee9QXdlJVh0dZEKXn3FKHTZ9c45ig4IFCMSdCjvp3ZV6QpVoThp8CvAZ%2BvIwykPhyP0bzzSGUfUMBu49Ao4xCC%2FJGLINOZM4rnr8JOWtozSnjfYpHdjKvC4keJrpSSx7hS8zTqtU%2FlmDWELrdWehM5Xt01cA6CJojA%3D%3D&response-content-disposition=attachment%3B+filename%3Dkg.nt.zip
 
 unzip kg.nt.zip
+
+# Issue with file encoding:
+# http://dbpedia.org/datatype/polishZ\u0142oty does not look like a valid URI, trying to serialize this will break.
+# check the file encoding
+file -i kg.nt
+# kg.nt: text/plain; charset=us-ascii
+
+# Dirty fix: remove all occurences \u from kg/nt
+find kg.nt -type f -exec sed -i "s/\\\\u//g" {} +
 ```
 
+> To load in graph http://idlab.github.io/covid19#datasetVersion9
 
+After removing all `\u` GraphDB still issue the following:
+
+```
+datatype rdf:langString requires a language tag 
+```
+
+Also try converting encoding (or US-ASCII)
+
+```bash
+iconv -f UNICODE -t utf8 kg.nt > unicode-to-utf8_covid-kg.nt
+```
 
 ## Sources
 
