@@ -39,14 +39,15 @@ wget -O kg.nt.zip https://storage.googleapis.com/kaggle-data-sets/564132/1049255
 
 unzip kg.nt.zip
 
-# Issue with file encoding:
-# http://dbpedia.org/datatype/polishZ\u0142oty does not look like a valid URI, trying to serialize this will break.
-# check the file encoding
-file -i kg.nt
-# kg.nt: text/plain; charset=us-ascii
+# Convert to turtle using Raptor to fix encoding issue (using rapper installed locally)
+rapper -i ntriples -o turtle kg.nt > ugent-covid-kg.ttl
+# Using Docker
+docker run -it --rm -v $(pwd):/data rdfhdt/hdt-cpp rdf2hdt /data/kg.nt /data/ugent-covid-kg.ttl
 
-# Dirty fix: remove all occurences \u from kg/nt
-find kg.nt -type f -exec sed -i "s/\\\\u//g" {} +
+# Still issue with lang tag:
+#<http://dbpedia.org/property/country> "United States"^^rdf:langString ;
+# Replace it by @en
+find ugent-covid-kg.ttl -type f -exec sed -i "s/\^\^rdf:langString/@en/g" {} +
 ```
 
 > To load in graph http://idlab.github.io/covid19#datasetVersion9
@@ -55,12 +56,6 @@ After removing all `\u` GraphDB still issue the following:
 
 ```
 datatype rdf:langString requires a language tag 
-```
-
-Also try converting encoding (or US-ASCII)
-
-```bash
-iconv -f UNICODE -t utf8 kg.nt > unicode-to-utf8_covid-kg.nt
 ```
 
 ## Sources
