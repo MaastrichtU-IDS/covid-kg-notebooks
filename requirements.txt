@@ -10,4 +10,6 @@ rdflib
 pyRDF2Vec
 SPARQLWrapper
 sparqlkernel
+dipper
+cwlref-runner
 pygraphviz
