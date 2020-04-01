@@ -31,5 +31,6 @@ docker run --rm -it -p 8888:8888 -v ${pwd}:/notebooks -e PASSWORD="<your_secret>
 * Those notebooks sources on Kaggle: 
   * Start with RDF: https://www.kaggle.com/group16/covid-19-knowledge-graph-starter/notebook
   * Knowledge graphs embeddings: https://www.kaggle.com/group16/covid-19-knowledge-graph-embeddings
+* Article: https://medium.com/@gillesvandewiele/9297236055c8
 * A Comunica instance to perform queries can be found here:
   https://query-covid19.linkeddatafragments.org/
