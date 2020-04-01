@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 input/covid19-literature-knowledge-graph/*kg.nt
 input/covid19-literature-knowledge-graph/kg.nt.zip
+**/*.ttl
