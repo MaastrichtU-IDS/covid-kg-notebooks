@@ -45,15 +45,18 @@ unzip kg.nt.zip
 # Convert to turtle using Raptor to fix encoding issue (using rapper installed locally)
 rapper -i ntriples -o turtle kg.nt > ugent-covid-kg.ttl
 
-# Still issue with lang tag:
+# Still issue with lang tag missing (langString should have a lang tag):
 #<http://dbpedia.org/property/country> "United States"^^rdf:langString ;
-# Replace it by @en
+# Replace rdf:langString by ^^<http://www.w3.org/2001/XMLSchema#string>
+find ugent-covid-kg.ttl -type f -exec sed -i "s/\^\^rdf:langString/^^<http:\/\/www.w3.org\/2001\/XMLSchema#string>/g" {} +
+
+# Or keep langString and use english tag as default
 find ugent-covid-kg.ttl -type f -exec sed -i "s/\^\^rdf:langString/@en/g" {} +
 ```
 
 > To load in graph http://idlab.github.io/covid19#datasetVersion9
 
-> Using Raptor within Docker:
+> Using Raptor with Docker:
 >
 > ```bash
 > docker run -it --rm -v $(pwd):/data rdfhdt/hdt-cpp rdf2hdt /data/kg.nt /data/ugent-covid-kg.ttl
