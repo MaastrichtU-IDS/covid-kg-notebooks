@@ -36,8 +36,8 @@ Go to the Jupyter notebook, open a new `Terminal` (Bash) and download the file u
 # Go to the right folder
 cd /notebooks/input/covid19-literature-knowledge-graph
 
-# Get the URL from Kaggle
-wget -O kg.nt.zip https://storage.googleapis.com/kaggle-data-sets/564132/1049255/compressed/kg.nt.zip?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=00000000000&response-content-disposition=attachment%3B+filename%3Dkg.nt.zip
+# Get the URL from Kaggle (starting with https://storage.googleapis.com/kaggle-data-sets)
+wget -O kg.nt.zip <KAGGLE_URL>
 
 # Unzip the downloaded file
 unzip kg.nt.zip
