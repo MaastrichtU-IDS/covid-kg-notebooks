@@ -5,5 +5,8 @@
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
 # Install our packages and jupyterlab extensions:
-cat packages.txt | xargs yum install -y
-cat extensions.txt | xargs -I {} jupyter {} install --user
+yum install -y python3-dev graphviz libgraphviz-dev
+
+# Install SPARQL kernel
+pip install sparqlkernel
+jupyter sparqlkernel install
