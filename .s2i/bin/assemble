@@ -1,11 +1,9 @@
 #!/bin/bash
+
 # Execute original assemble script.
 /opt/app-root/builder/assemble
-
-
-apt-get update
-
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
-cat ../../packages.txt | xargs apt-get install -y
-cat ../../extensions.txt | xargs -I {} jupyter {} install --user
+# Install our packages and jupyterlab extensions:
+cat packages.txt | xargs yum install -y
+cat extensions.txt | xargs -I {} jupyter {} install --user
