@@ -4,9 +4,6 @@
 /opt/app-root/builder/assemble
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
-# Install our packages and jupyterlab extensions:
-yum install -y python3-dev graphviz libgraphviz-dev
-
 # Install SPARQL kernel (not sure it will work due to --user)
 pip install sparqlkernel
 jupyter sparqlkernel install --user
