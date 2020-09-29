@@ -26,6 +26,12 @@ docker run --rm -it -p 8888:8888 -v ${pwd}:/notebooks -e PASSWORD="<your_secret>
 
 This notebook uses a 166M compressed ntriples file as Knowledge Graph which needs to be downloaded
 
+### Get curated data
+
+We fixed issues with encoding and language tag to make sure the file can be loaded in RDF4J triplestores, the fixed data can be download at https://covid-download.137.120.31.102.nip.io/#/
+
+### Download original data
+
 Get the `kg.nt` download URL from Kaggle: https://www.kaggle.com/group16/covid19-literature-knowledge-graph
 
 > In firefox after starting the download you can right click on the file in the download list and "Copy Download Link"
